@@ -1,0 +1,11 @@
+import java.io.BufferedReader;
+
+import jdk.internal.org.jline.utils.InputStreamReader;
+
+public class Main_13702_송해찬 {
+
+	public static void main(String[] args) {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	}
+
+}
