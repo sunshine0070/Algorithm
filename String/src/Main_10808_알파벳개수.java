@@ -12,12 +12,12 @@ public class Main_10808_알파벳개수 {
 		
 		for(char c : str.toCharArray()) {
 			int num = c - 'a';
-			System.out.print(num + " ");
+//			System.out.print(num + " ");
 			cntArr[num]++;
 		}
 		
-//		for(int i=0; i<cntArr.length; i++) {
-//			System.out.print(cntArr[i] + " ");
-//		}
+		for(int i=0; i<cntArr.length; i++) {
+			System.out.print(cntArr[i] + " ");
+		}
 	}
 }
